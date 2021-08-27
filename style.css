@@ -1,0 +1,132 @@
+body, html {
+  height: 100%;
+  background-image: url("image/pic1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.display-1{
+  font-family: papyrus;
+  font-style: bold;
+  color:rgb(248, 214, 18);
+  text-align: center;
+font-size: 10vw; 
+ text-align: end;
+  top:50vw;
+}
+.section{
+  background-image: url("image/pic4.jpg");
+  background-size: cover;
+    background-attachment: fixed;
+          min-height:300px;
+}
+h5{
+  font-family: papyrus;
+  font-style: bold;
+  color:white;
+  text-align: end;
+  font-size:5vw;
+}
+ img{
+    width:40%;
+    height:auto;
+}
+
+div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    background-color: transparent;
+    opacity: 0.9;
+    border: 2px solid #4CAF50;
+    text-align: center;
+    width:100%
+  }
+   .sticky img{
+     width:70%;
+     height: auto;
+   } 
+   .sticky button{
+     border-radius: 10px;
+     color:white;
+     background-color: black;
+     opacity:0.5;
+    font-size: 3vw;
+    width: 5vw;
+    height: 5vw;
+    top:0;
+    padding:2px
+    }
+    .cutbtt{
+      right:5%;
+      left:80%;
+      top:5%;
+      position: absolute;
+    }
+    .leftbtt{
+      right:80%;
+      left:5%;
+      top:40%;
+      position: absolute;
+    }
+    .rightbtt{
+      right:5%;
+      left:80%;
+      top:40%;
+      position: absolute;
+    }
+    #child{
+     
+      width:100%;
+      height:40vw;
+      margin:10px;
+      padding: 20px;
+      text-align: center;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+    #child img{
+      height: auto;
+      max-width: 100%;
+      display:block;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+    .col-sm-3{
+      padding: 5px;
+    }
+    #left, #right, #cut{
+  color:tomato;
+  background-color: black;
+  opacity: 0.9;
+  font-size: 4vw;
+}
+
+.mid img{
+  width:100%;
+  height: auto;
+}
+.btn-warning {
+  padding: 2vw;
+  font-size: 2vw;
+  font-family: papyrus;
+  font-style: bold;
+  border-radius: 2vw;
+  width:250px;
+}
+.btn-warning:hover {
+  padding: 2vw;
+  font-size: 2vw;
+  font-family: papyrus;
+  font-style: bold;
+  border-radius: 2vw;
+  width:250px;
+  opacity: 0.5;
+}
+.gallery-item:hover{
+  opacity: 0.7;
+}
+
